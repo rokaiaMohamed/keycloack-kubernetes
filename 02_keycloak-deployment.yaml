@@ -9,11 +9,8 @@ spec:
       labels:
         name: keycloak
     spec:
-      #nodeSelector:
-       # name: vmi71989
       containers:
       - name: keycloak
-        #image: robertbrem/keycloak:1.0.3
         image: jboss/keycloak
         env:
         - name: KEYCLOAK_USER
